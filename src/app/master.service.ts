@@ -11,4 +11,8 @@ export class MasterService {
   getData() {
     return this.valueService.getData();
   }
+
+  getDemo() {
+    return 'demo from master';
+  }
 }
